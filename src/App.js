@@ -11,7 +11,9 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer></footer>
+      <footer>
+        <small>Coded by Saba Rahrotaban</small>
+      </footer>
     </div>
   );
 }
