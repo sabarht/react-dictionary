@@ -4,7 +4,9 @@ export default function Photos(props) {
       <section className="Photos">
         <div className="row">
           {props.photos.map(function (photo, index) {
-            return <img src={photo.src.landscape} key={index} alt="picture of" />;
+            return (
+              <img src={photo.src.landscape} key={index} alt={photo.src.alt} />
+            );
           })}
         </div>
       </section>
