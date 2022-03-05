@@ -42,7 +42,8 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <form onSubmit={handleSubmit}>
-          <input type="search" autoFocus={true} onChange={updateKeyword} />
+          <input type="search" autoFocus={true} onChange={updateKeyword} placeholder="rainbow" />
+          <div><small>example: Love, Family, peace</small></div>
         </form>
         <Results results={results} />
         <Photos photos={photos} />
