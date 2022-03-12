@@ -41,10 +41,13 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <section>
+
         <form onSubmit={handleSubmit}>
           <input type="search" autoFocus={true} onChange={updateKeyword} placeholder="rainbow" />
           <div><small>example: Love, Family, peace</small></div>
         </form>
+        </section>
         <Results results={results} />
         <Photos photos={photos} />
       </div>
