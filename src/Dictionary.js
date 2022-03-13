@@ -42,7 +42,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-
+        <h3 className="p-4 text-center">What word would you want to lookup?</h3>
         <form onSubmit={handleSubmit}>
           <input type="search" autoFocus={true} onChange={updateKeyword} placeholder="rainbow" />
           <div><small>example: Love, Family, peace</small></div>

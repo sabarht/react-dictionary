@@ -5,9 +5,7 @@ export default function Photos(props) {
   if (props.photos) {
     return (
       <section className="Photos">
-        <div className="btn btn-primary">
-Mamad 
-</div>
+        
         <div className="row">
           {props.photos.map(function (photo, index) {
             console.log(photo)
