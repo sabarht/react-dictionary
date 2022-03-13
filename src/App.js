@@ -15,7 +15,7 @@ function App() {
         <Dictionary defaultKeyword="rainbow" />
       </main>
       <footer>
-        <small>Coded by Saba Rahrotaban</small>
+        <small>Dictionary App is Coded by Saba Rahrotaban and is <a href="https://github.com/sabarht/react-dictionary">Open Source.</a></small>
       </footer>
     </div>
   );
