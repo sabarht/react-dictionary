@@ -6,24 +6,21 @@ export default function Meaning(props) {
   return (
     <div className="Meaning">
       <section>
-      <h2>{props.meaning.partOfSpeech}</h2>
-      {props.meaning.definitions.map(function (definition, index) {
-        return (
-          <div key={index}>
-              <ul>
-                 <li>  
-                  {definition.definition}
-                  </li>
+        <h2>{props.meaning.partOfSpeech}</h2>
+        {props.meaning.definitions
+          .slice(0, 3)
+          .map(function (definition, index) {
+            return (
+              <div key={index}>
+                <ul>
+                  <li>{definition.definition}</li>
                 </ul>
-              <em>
-                   {definition.example}
-                </em>
-              <Synonyms synonyms={definition.synonyms} />
-            
-          </div>
-        );
-      })}
-    </section>
+                <em>{definition.example}</em>
+                <Synonyms synonyms={definition.synonyms} />
+              </div>
+            );
+          })}
+      </section>
     </div>
   );
 }
