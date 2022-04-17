@@ -6,16 +6,18 @@ function App() {
     <div className="App container">
       <header className="App-header">
         <div className="row">
-          
-        <h1>Dictionary Project</h1>
-          </div>
+          <h1>Dictionary Project</h1>
+        </div>
       </header>
 
       <main>
         <Dictionary defaultKeyword="rainbow" />
       </main>
       <footer>
-        <small>Dictionary App is Coded by Saba Rahrotaban and is <a href="https://github.com/sabarht/react-dictionary">Open Source.</a></small>
+        <small className="text-center">
+          Dictionary App is Coded by Saba Rahrotaban and is{" "}
+          <a href="https://github.com/sabarht/react-dictionary">Open Source.</a>
+        </small>
       </footer>
     </div>
   );

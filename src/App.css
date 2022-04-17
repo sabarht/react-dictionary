@@ -1,16 +1,15 @@
-header{
+header {
   text-align: center;
-  border-radius:12px ;
-  background-color: #E45826;
+  border-radius: 12px;
+  background-color: #e45826;
   padding: 50px 0px;
 }
 .App {
-  background-color:#f3e2c9;
   color: #1b1a17;
-padding: 16px 112px;
+  padding: 16px 112px;
 }
 .App-header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 700;
 }
 
@@ -19,20 +18,19 @@ form {
 }
 
 input {
-padding:8px 12px;
-padding-right: 24px;
-border-radius: 16px;
-border: none;
+  padding: 8px 12px;
+  padding-right: 24px;
+  border-radius: 16px;
+  border: none;
 }
 
 input:focus-within {
-border: none;
-
+  border: none;
 }
 
 section {
   padding: 16px;
   margin: 16px 0;
   border-radius: 16px;
-  background-color:#F0A500;
+  background-color: #f0a500;
 }
