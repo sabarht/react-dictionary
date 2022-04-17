@@ -1,24 +1,18 @@
 header {
   text-align: center;
   border-radius: 12px;
-  background-color: #e45826;
+  background-color: #ee5e2a;
   padding: 50px 0px;
 }
-.App {
-  color: #1b1a17;
-  padding: 16px 112px;
+h1 {
+  font-size: 54px;
 }
-.App-header {
-  font-family: "Playfair Display", serif;
-  font-size: 700;
-}
-
 form {
   text-align: center;
 }
 
 input {
-  padding: 8px 12px;
+  padding: 6px 12px;
   padding-right: 24px;
   border-radius: 16px;
   border: none;
@@ -32,5 +26,14 @@ section {
   padding: 16px;
   margin: 16px 0;
   border-radius: 16px;
-  background-color: #f0a500;
+  background-color: #f7b321;
+}
+
+.App {
+  color: #1b1a17;
+  padding: 16px 120px;
+}
+.App-header {
+  font-family: "Playfair Display", serif;
+  font-size: 700;
 }
