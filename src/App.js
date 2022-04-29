@@ -5,9 +5,6 @@ function App() {
   return (
     <div className="App container">
       <header className="App-header">
-        <div className="row">
-          <h1>Dictionary</h1>
-        </div>
       </header>
 
       <main>

@@ -41,10 +41,10 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-          <h5 className="p-2 text-center">
-            What word would you want to lookup?
-          </h5>
+        <section className="search-section">
+          <h4 className="text-white p-2 text-center ">
+            What word would you want to look up?
+          </h4>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -53,7 +53,7 @@ export default function Dictionary(props) {
               placeholder="rainbow"
             />
             <div>
-              <small>example: Love, Family, peace</small>
+              <small className="text-white">example: Love, Family, peace</small>
             </div>
           </form>
         </section>
