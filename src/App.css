@@ -31,9 +31,7 @@ section {
   background-color: #157bf0;
   border: none;
 }
-.button {
-  padding: px 4px;
-  color: #000;
-  text-decoration: none;
-  border: 1px solid #1b1a17;
+
+.btn {
+  border-radius: 8px !important;
 }
