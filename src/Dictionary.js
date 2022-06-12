@@ -50,7 +50,7 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={updateKeyword}
-              placeholder="rainbow"
+              placeholder="pride"
             />
             <div>
               <small className="text-white">example: Love, Family, peace</small>

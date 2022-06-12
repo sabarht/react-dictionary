@@ -10,7 +10,7 @@ input:focus-within {
 }
 
 section {
-  background-color: aliceblue;
+  background-color: #e4f0e5fb;
   border-radius: 16px;
   margin: 16px 0;
   padding: 16px;
@@ -28,10 +28,21 @@ section {
   text-align: center;
   border-radius: 16px;
   padding: 40px 0px;
-  background-color: #157bf0;
+  background-color: #5f7161;
   border: none;
 }
 
-.btn {
-  border-radius: 8px !important;
+.button {
+  display: inline-block;
+  padding: 4px 16px;
+  border: 1px solid #5f7161;
+  border-radius: 32px;
+
+  color: #5f7161;
+  margin: 4px 4px 0 0;
+}
+
+.button:hover {
+  background-color: #5f7161;
+  color: #ffffff;
 }

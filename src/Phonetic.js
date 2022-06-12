@@ -8,7 +8,7 @@ export default function Phonetic(props) {
         href={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
-        className="btn  btn-outline-primary m-1 py-1"
+        className="button"
       >
         Listen
       </a>
